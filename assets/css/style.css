@@ -1507,7 +1507,7 @@ section#intro .wrap-description {
 
 section#intro .wrap-description p {
   -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
+      -ms-transform: rotate(-90deg);
           transform: rotate(0deg);
 }
 
