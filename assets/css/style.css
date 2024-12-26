@@ -1222,7 +1222,7 @@ section.auto {
 section .circle {
   width: 40px;
   height: 40px;
-  border: 12px solid red;
+  border: 12px solid yellow;
   border-radius: 40%;
   z-index: 0;
 }
@@ -1236,7 +1236,7 @@ section .circle {
 section .circle.lg {
   width: 60px;
   height: 60px;
-  border: 18px solid yellow;
+  border: 18px solid red;
 }
 
 section .circle.md {
