@@ -1506,9 +1506,9 @@ section#intro .wrap-description {
 }
 
 section#intro .wrap-description p {
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 @media screen and (max-width: 991px) {
