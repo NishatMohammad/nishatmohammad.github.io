@@ -1,0 +1,28 @@
+<h2>🍭 Unveiling Insights from Biological Data 🍭</h2>
+<p><br />In biology, data variability is not necessarily noise but can be viewed as the key to discovery if you are willing to flip the coin within the neural network of our thinking process. While analyzing gene expression or protein interactions, understanding statistical distributions unlocks the hidden patterns in our data.<br />A quick dive into some essential concepts using Python and R</p>
+<h3><br />🍦 Central Tendency (Mean vs. Median):</h3>
+<p><br />In biological datasets, the mean can be skewed by outliers, while the median provides a robust alternative.</p>
+<h4><br />In Python:</h4>
+<p><br />import numpy as np <br />x = np.random.uniform(size=10) <br />np.mean(x), np.median(x)</p>
+<h4><br />In R:</h4>
+<p><br /># Random Uniform Distribution<br />x &lt;- runif(10)<br />mean(x)<br />median(x)</p>
+<h3><br />🍧 Spread (Variance &amp; Standard Deviation):</h3>
+<p><br />How spread out is the data? Variance and standard deviation tell the story of variability.</p>
+<h4><br />In Python:</h4>
+<p><br />x = np.random.normal(7, 0.8, 60) <br />np.var(x), np.std(x)</p>
+<h4><br />In R:</h4>
+<p><br />set.seed(123)<br /># Random normal distribution<br /> x &lt;- rnorm(60, mean =7, sd =0.8)<br /># Variance<br /> var(x)<br /># Standard Deviation<br /> sd(x)</p>
+<h3><br />🍨 Outliers &amp; IQR:</h3>
+<p><br />Outliers can distort the data narrative. The interquartile range (IQR) helps focus on the core dataset.</p>
+<h4><br />In Python:</h4>
+<p><br />np.percentile(x, 75) - np.percentile(x, 25)</p>
+<h4><br />In R:</h4>
+<p><br />IQR(x)</p>
+<h3><br />🍡 Z-Scores &amp; Normal Distribution:</h3>
+<p><br />Z-scores standardize data, showing how far a value is from the mean. Useful in hypothesis testing!</p>
+<h4><br />In Python:</h4>
+<p><br />from scipy.stats import norm <br />z_score = -2 / 2 <br />norm.cdf(z_score)</p>
+<h4><br />In R:</h4>
+<p><br /># Get Z - score<br />z_score &lt;- -2/2<br /># Get Cumulative probability for the Z-score<br />pnorm(z_score)</p>
+<h3><br />🥮 Why It Matters:</h3>
+<p><br />Statistical distributions lay the groundwork for hypothesis testing, machine learning, and multi-omics analysis in bioinformatics, empowering data-driven discoveries.<br /><br />🎲 Learn more here:<br /><a href="https://lnkd.in/eaDndahB" target="_self" data-test-app-aware-link="">https://lnkd.in/eaDndahB</a><br /><a href="https://lnkd.in/eSqp8j5K" target="_self" data-test-app-aware-link="">https://lnkd.in/eSqp8j5K</a><br /><br />☕️ Curious about how these insights power breakthroughs in cancer research? Let's connect! I am passionate about using bioinformatics, Python, and R to illuminate complex biological systems. <a href="https://www.linkedin.com/feed/hashtag/?keywords=bioinformatics&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#Bioinformatics</a> <a href="https://www.linkedin.com/feed/hashtag/?keywords=python&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#Python</a> <a href="https://www.linkedin.com/feed/hashtag/?keywords=r&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#R</a> <a href="https://www.linkedin.com/feed/hashtag/?keywords=datascience&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#DataScience&nbsp;</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=biostatistics&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#Biostatistics&nbsp;</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=opentowork&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#OpenToWork&nbsp;</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=cancerresearch&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#CancerResearch&nbsp;</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=multiomics&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#MultiOmics&nbsp;</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=statisticalanalysis&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7269732924457979905" data-test-app-aware-link="">#StatisticalAnalysis</a></p>
