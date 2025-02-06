@@ -1,0 +1,414 @@
+<html>
+<html lang="en" data-theme-setting="system" class="translated-ltr" data-theme="light">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style>#back-to-top{background:#000;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;bottom:20px;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);box-shadow:0 2px 5px 0 rgba(0,0,0,.26);color:#fff;cursor:pointer;display:block;height:56px;opacity:1;outline:0;position:fixed;right:20px;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-transition:bottom .2s,opacity .2s;-o-transition:bottom .2s,opacity .2s;-moz-transition:bottom .2s,opacity .2s;transition:bottom .2s,opacity .2s;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:56px;z-index:1}#back-to-top svg{display:block;fill:currentColor;height:20px;margin:11px auto 0;width:20px}#back-to-top.hidden{bottom:-56px;opacity:0}</style>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>blog | Bioinfo-Medical Algos - BiMedAlgos </title>
+      <meta name="author" content="Dr. Nishat Fatima Mohammad">
+      <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. ">
+      <meta name="keywords" content="Bioinformatics, Machine Learning, AI, Algos, NGS">
+      <link rel="stylesheet" href="../../assets/css/blog/bootstrap.min.css">
+      <link rel="stylesheet" href="../../assets/css/blog/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+      <link defer="" rel="stylesheet" href="../../assets/css/blog/academicons.min.css">
+      <link defer="" rel="stylesheet" href="../../assets/css/blog/scholar-icons.css">
+      <link defer="" rel="stylesheet" type="text/css" href="../../assets/css/blog/css">
+      <link defer="" rel="stylesheet" href="../../assets/css/blog/jekyll-pygments-themes-github.css" media="" id="highlight_theme_light">
+      <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8C%B8&lt;/text&gt;&lt;/svg&gt;">
+      <link rel="stylesheet" href="../../assets/css/blog/main.css">
+      <link rel="canonical" href="https://NishatMohammad.github.io/blog/">
+      <script src="../../assets/js/blog/theme.js"></script> 
+      <link defer="" rel="stylesheet" href="../../assets/css/blog/jekyll-pygments-themes-native.css" media="none" id="highlight_theme_dark">
+      <script>
+         initTheme();
+      </script> 
+      <style type="text/css">/* Chart.js */
+         @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
+      </style>
+      <script id="altmetric-embed-js" src="../../assets/js/blog/altmetric_badges-ffa94af28b7f8e4e5169b7ec2ad8e1e94e231143f796594a1ab2753a4fb0acb4.js"></script>
+      <style type="text/css">.medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)!important}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}</style>
+      <style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+         .CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+         .CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+         .CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+      </style>
+      <style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+         .CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+         .CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+         .CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+         .CtxtMenu_MenuClose:hover:focus {  outline:none}
+      </style>
+      <style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+         .CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+         .CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+         .CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+         .CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+         .CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+         .CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+         .CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+         .CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+         .CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+         .CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+         .CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+         .CtxtMenu_MenuSlider {  left: .1em;}
+         .CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+         .CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+         .CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+         .CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+         .CtxtMenu_MenuDisabled {  color:GrayText}
+         .CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+         .CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+         .CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+         .CtxtMenu_ContextMenu:focus {  outline:none}
+         .CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+         .CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+         .CtxtMenu_SelectionItem {  padding-right: 1em;}
+         .CtxtMenu_Selection {  right: 40%; width:50%; }
+         .CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+         .CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+         .CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+      </style>
+      <style id="MJX-CHTML-styles">
+         mjx-container[jax="CHTML"] {
+         line-height: 0;
+         }
+         mjx-container [space="1"] {
+         margin-left: .111em;
+         }
+         mjx-container [space="2"] {
+         margin-left: .167em;
+         }
+         mjx-container [space="3"] {
+         margin-left: .222em;
+         }
+         mjx-container [space="4"] {
+         margin-left: .278em;
+         }
+         mjx-container [space="5"] {
+         margin-left: .333em;
+         }
+         mjx-container [rspace="1"] {
+         margin-right: .111em;
+         }
+         mjx-container [rspace="2"] {
+         margin-right: .167em;
+         }
+         mjx-container [rspace="3"] {
+         margin-right: .222em;
+         }
+         mjx-container [rspace="4"] {
+         margin-right: .278em;
+         }
+         mjx-container [rspace="5"] {
+         margin-right: .333em;
+         }
+         mjx-container [size="s"] {
+         font-size: 70.7%;
+         }
+         mjx-container [size="ss"] {
+         font-size: 50%;
+         }
+         mjx-container [size="Tn"] {
+         font-size: 60%;
+         }
+         mjx-container [size="sm"] {
+         font-size: 85%;
+         }
+         mjx-container [size="lg"] {
+         font-size: 120%;
+         }
+         mjx-container [size="Lg"] {
+         font-size: 144%;
+         }
+         mjx-container [size="LG"] {
+         font-size: 173%;
+         }
+         mjx-container [size="hg"] {
+         font-size: 207%;
+         }
+         mjx-container [size="HG"] {
+         font-size: 249%;
+         }
+         mjx-container [width="full"] {
+         width: 100%;
+         }
+         mjx-box {
+         display: inline-block;
+         }
+         mjx-block {
+         display: block;
+         }
+         mjx-itable {
+         display: inline-table;
+         }
+         mjx-row {
+         display: table-row;
+         }
+         mjx-row > * {
+         display: table-cell;
+         }
+         mjx-mtext {
+         display: inline-block;
+         }
+         mjx-mstyle {
+         display: inline-block;
+         }
+         mjx-merror {
+         display: inline-block;
+         color: red;
+         background-color: yellow;
+         }
+         mjx-mphantom {
+         visibility: hidden;
+         }
+         _::-webkit-full-page-media, _:future, :root mjx-container {
+         will-change: opacity;
+         }
+         mjx-assistive-mml {
+         position: absolute !important;
+         top: 0px;
+         left: 0px;
+         clip: rect(1px, 1px, 1px, 1px);
+         padding: 1px 0px 0px 0px !important;
+         border: 0px !important;
+         display: block !important;
+         width: auto !important;
+         overflow: hidden !important;
+         -webkit-touch-callout: none;
+         -webkit-user-select: none;
+         -khtml-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         user-select: none;
+         }
+         mjx-assistive-mml[display="block"] {
+         width: 100% !important;
+         }
+         mjx-c::before {
+         display: block;
+         width: 0;
+         }
+         .MJX-TEX {
+         font-family: MJXZERO, MJXTEX;
+         }
+         .TEX-B {
+         font-family: MJXZERO, MJXTEX-B;
+         }
+         .TEX-I {
+         font-family: MJXZERO, MJXTEX-I;
+         }
+         .TEX-MI {
+         font-family: MJXZERO, MJXTEX-MI;
+         }
+         .TEX-BI {
+         font-family: MJXZERO, MJXTEX-BI;
+         }
+         .TEX-S1 {
+         font-family: MJXZERO, MJXTEX-S1;
+         }
+         .TEX-S2 {
+         font-family: MJXZERO, MJXTEX-S2;
+         }
+         .TEX-S3 {
+         font-family: MJXZERO, MJXTEX-S3;
+         }
+         .TEX-S4 {
+         font-family: MJXZERO, MJXTEX-S4;
+         }
+         .TEX-A {
+         font-family: MJXZERO, MJXTEX-A;
+         }
+         .TEX-C {
+         font-family: MJXZERO, MJXTEX-C;
+         }
+         .TEX-CB {
+         font-family: MJXZERO, MJXTEX-CB;
+         }
+         .TEX-FR {
+         font-family: MJXZERO, MJXTEX-FR;
+         }
+         .TEX-FRB {
+         font-family: MJXZERO, MJXTEX-FRB;
+         }
+         .TEX-SS {
+         font-family: MJXZERO, MJXTEX-SS;
+         }
+         .TEX-SSB {
+         font-family: MJXZERO, MJXTEX-SSB;
+         }
+         .TEX-SSI {
+         font-family: MJXZERO, MJXTEX-SSI;
+         }
+         .TEX-SC {
+         font-family: MJXZERO, MJXTEX-SC;
+         }
+         .TEX-T {
+         font-family: MJXZERO, MJXTEX-T;
+         }
+         .TEX-V {
+         font-family: MJXZERO, MJXTEX-V;
+         }
+         .TEX-VB {
+         font-family: MJXZERO, MJXTEX-VB;
+         }
+         mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+         font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+         }
+         @font-face /* 0 */ {
+         font-family: MJXZERO;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+         }
+         @font-face /* 1 */ {
+         font-family: MJXTEX;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+         }
+         @font-face /* 2 */ {
+         font-family: MJXTEX-B;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+         }
+         @font-face /* 3 */ {
+         font-family: MJXTEX-I;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+         }
+         @font-face /* 4 */ {
+         font-family: MJXTEX-MI;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+         }
+         @font-face /* 5 */ {
+         font-family: MJXTEX-BI;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+         }
+         @font-face /* 6 */ {
+         font-family: MJXTEX-S1;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+         }
+         @font-face /* 7 */ {
+         font-family: MJXTEX-S2;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+         }
+         @font-face /* 8 */ {
+         font-family: MJXTEX-S3;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+         }
+         @font-face /* 9 */ {
+         font-family: MJXTEX-S4;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+         }
+         @font-face /* 10 */ {
+         font-family: MJXTEX-A;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+         }
+         @font-face /* 11 */ {
+         font-family: MJXTEX-C;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+         }
+         @font-face /* 12 */ {
+         font-family: MJXTEX-CB;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+         }
+         @font-face /* 13 */ {
+         font-family: MJXTEX-FR;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+         }
+         @font-face /* 14 */ {
+         font-family: MJXTEX-FRB;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+         }
+         @font-face /* 15 */ {
+         font-family: MJXTEX-SS;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+         }
+         @font-face /* 16 */ {
+         font-family: MJXTEX-SSB;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+         }
+         @font-face /* 17 */ {
+         font-family: MJXTEX-SSI;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+         }
+         @font-face /* 18 */ {
+         font-family: MJXTEX-SC;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+         }
+         @font-face /* 19 */ {
+         font-family: MJXTEX-T;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+         }
+         @font-face /* 20 */ {
+         font-family: MJXTEX-V;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+         }
+         @font-face /* 21 */ {
+         font-family: MJXTEX-VB;
+         src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+         }
+      </style>
+      <link rel="stylesheet" href="../../assets/css/blog/badge.css">
+      <link rel="stylesheet" href="../../assets/css/blog/badge.css">
+      <link type="text/css" rel="stylesheet" charset="UTF-8" href="../../assets/css/blog/m=el_main_css">
+      <style>
+      	body{
+      		background-color: darkolivegreen;
+      	}
+      	.fixed-top {
+    			position: relative;
+		}
+		.contents {
+			    padding-left: 50px;
+   				padding-right: 50px;
+		}
+      </style>
+   </head>
+
+<body>
+<header>
+         <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+            <div class="container">
+               <a class="navbar-brand title font-weight-lighter" href="https://NishatMohammad.github.io/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bioinfo-Medical Algos</font></font></a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Toggle navigation</font></font></span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> 
+               <div class="collapse navbar-collapse text-right" id="navbarNav">
+                  <ul class="navbar-nav ml-auto flex-nowrap">
+                     <li class="nav-item "> <a class="nav-link" href="https://NishatMohammad.github.io/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">about</font></font></a> </li>
+                     <li class="nav-item active"> <a class="nav-link" href="https://NishatMohammad.github.io/blog/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">blog</font></font><span class="sr-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(current)</font></font></span> </a> </li>
+                     <li class="nav-item "> <a class="nav-link" href="https://NishatMohammad.github.io/projects/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">projects</font></font></a> </li>
+                     <li class="nav-item "> <a class="nav-link" href="https://NishatMohammad.github.io/repositories/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">repositories</font></font></a> </li>
+                     <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="https://NishatMohammad.github.io/blog/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More</font></font><span class="sr-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(current)</font></font></span> </a> 
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="https://www.linkedin.com/in/nishat-fatima-mohammad/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">My LinkedIn</font></font></a> 
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item active" href="https://github.com/NishatMohammad?tab=repositories"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub Repos</font></font></a> 
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item active" href="https://nishatmohammad.github.io/projects"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">projects</font></font></a>
+                        </div>
+                     </li>
+                     <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⌘ k</font></font><i class="ti ti-search"></i></span> </button> </li>
+                     <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <progress id="progress" value="0" max="4219" style="top: 57px;">
+            <div class="progress-container"> <span class="progress-bar"></span> </div>
+         </progress>
+      </header>
+<div class="contents">
+<h1 dir="ltr">🧲RNA-Seq Part 3: Differential Expression Analysis &amp; Best Practices🧲</h1>
+<div dir="ltr"><br />In RNA-Seq, several hypotheses are tested to understand how gene expression differs between two biological conditions. But challenges like limited replicates, non-normal distributions, and variability in lowly expressed genes can hinder accurate detection. Tools like edgeR and DESeq2 overcome these limitations by using statistical models based on the negative binomial distribution, which helps account for variability and improve the reliability of results.<br /></div>
+<h2 dir="ltr"><br />🐾Steps in Differential Expression Analysis:<br /></h2>
+<h4 dir="ltr">🥇Normalization: </h4>
+<div dir="ltr">Adjusting raw counts to account for library sizes and compositions.</div>
+<h4 dir="ltr"><br />🥈Dispersion Estimation:</h4>
+<div dir="ltr"> Estimating variance for each gene and using data from other genes with similar counts to improve precision.</div>
+<h4 dir="ltr"><br />🥉Model Fitting: </h4>
+<div dir="ltr">DESeq2 uses a Generalized Linear Model (GLM) to fit the count data, considering confounding variables like treatment, sequencing batch, and patient age.<br />🎖Hypothesis Testing: We test whether the log fold change of gene expression is significantly different between conditions.<br /><br /></div>
+<h2 dir="ltr">🏃DESeq2 Workflow:<br /></h2>
+<h4 dir="ltr">☁️Input data:</h4>
+<div dir="ltr">Raw read count table, ColData table (experimental design), Design formula (treatment vs. control).<br /></div>
+<h4 dir="ltr">⛈DESeq2 Functions:</h4>
+<div dir="ltr">Remove lowly expressed genes, Run DESeq() to compute size factors, dispersion, and GLM, Calculate differential expression and adjust for multiple tests.<br /></div>
+<h4 dir="ltr">🌈Results: </h4>
+<div dir="ltr">The DESeq2 output provides log fold changes, p-values, and adjusted p-values, helping identify significant genes. Diagnostic plots like MA plots, PCA, and RLE plots help assess data quality.<br />MA Plot: Shows the log fold change vs. average normalized counts. Most genes should not be differentially expressed, indicated by points clustering near zero.<br />PCA Plot: Helps visualize biological reproducibility and sample grouping.<br />RLE Plot: Ensures that normalization worked effectively.<br /><br /></div>
+<h2 dir="ltr">🌪Functional Enrichment Analysis:<br /></h2>
+<div dir="ltr">After identifying differentially expressed genes, GO term analysis (Gene Ontology) can help interpret the biological significance of these genes. Tools like gProfileR facilitate functional enrichment analysis to identify pathways and processes associated with the genes.This is a crucial step in understanding the biological story behind the numbers, by identifying key processes and pathways affected by treatment or condition.<br /><br />🪢For more follow me here: <a href="https://lnkd.in/gpsrVrat" target="_self" data-test-app-aware-link="">https://lnkd.in/gpsrVrat</a><br />🔭Learn more here:<br /><a href="https://lnkd.in/eAdudHYc" target="_self" data-test-app-aware-link="">https://lnkd.in/eAdudHYc</a><br /><br /><a href="https://www.linkedin.com/feed/hashtag/?keywords=rnaseq&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#RNASeq</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=datascience&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#DataScience</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=bioinformatics&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#Bioinformatics</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=deseq2&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#DESeq2</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=edger&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#EdgeR</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=geneexpression&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#GeneExpression</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=genomics&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#Genomics</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=differentialexpression&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#DifferentialExpression</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=functionalanalysis&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7282780600665530369" data-test-app-aware-link="">#FunctionalAnalysis</a></div>
+</div>
